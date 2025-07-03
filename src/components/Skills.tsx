@@ -1,6 +1,7 @@
 
 import { Card, CardContent } from '@/components/ui/card';
 
+
 const Skills = () => {
   const skillCategories = [
     {
@@ -10,7 +11,8 @@ const Skills = () => {
         { name: "TypeScript", level: 85, icon: "📘" },
         { name: "JavaScript", level: 95, icon: "💛" },
         { name: "HTML5", level: 98, icon: "🟠" },
-        { name: "CSS3", level: 90, icon: "🎨" }
+        { name: "CSS3", level: 90, icon: "🎨" },
+        { name: "PHP/Laravel", level: 50, icon: "⚡" }
       ]
     },
     {
