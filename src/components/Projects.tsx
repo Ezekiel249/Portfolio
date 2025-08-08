@@ -14,20 +14,20 @@ const Projects = () => {
       githubUrl: "https://github.com/Ezekiel249/Sower-Ventures"
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application with drag-and-drop functionality, team collaboration features, and progress tracking.",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-      liveUrl: "https://demo.example.com",
-      githubUrl: "https://github.com/example/project2"
+      title: "IITA Asset Management System",
+      description: "A collaborative asset management system for IITA with good UI and ASSET tracking with a well secured Backend.",
+      image: "https://20597294.fs1.hubspotusercontent-na1.net/hub/20597294/hubfs/1.%20Exploring%20IT%20asset%20management.png?width=1062&name=1.%20Exploring%20IT%20asset%20management.png",
+      tech: ["React", "Node.JS", "MySql", "Chart.js"],
+      liveUrl: "",
+      githubUrl: ""
     },
     {
-      title: "Weather Forecast App",
-      description: "A beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      tech: ["React", "API Integration", "CSS3", "Geolocation"],
-      liveUrl: "https://demo.example.com",
-      githubUrl: "https://github.com/example/project3"
+      title: "Laravel Authors & Books Management System",
+      description: "A Authors & Books Management System (Backend)",
+      image: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgugz59c6y3zzc5pdptcr.png",
+      tech: [ "API Security", "Laravel", "php"],
+      liveUrl: "",
+      githubUrl: "https://github.com/Ezekiel249/restful-api"
     }
   ];
 
