@@ -6,6 +6,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
 import { useState } from 'react';
 import { useToast } from '@/hooks/use-toast';
+import { useNavigate } from 'react-router-dom';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -74,6 +76,7 @@ const Contact = () => {
       color: "hover:text-blue-400"
     }
   ];
+  const navigate = useNavigate();
 
   return (
     <section id="contact" className="py-12 sm:py-16 lg:py-20 bg-gray-50 dark:bg-gray-800">
