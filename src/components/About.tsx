@@ -40,7 +40,7 @@ const About = () => {
                 <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 mx-auto lg:mx-0 relative">
                   <div className="absolute inset-0 bg-gradient-to-br from-portfolio-primary to-portfolio-accent rounded-2xl transform rotate-6"></div>
                   <img
-                    src="/Profile.jpeg"
+                    src="public/Profile.jpeg"
                     alt="Adelowo Opeoluwa Ezekiel"
                     className="relative w-full h-full object-cover rounded-2xl shadow-xl"
                   />
